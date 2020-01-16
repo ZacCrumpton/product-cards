@@ -9,14 +9,29 @@ body {
 }
 
 .cards {
-    background-color: salmon;
+    background-color: darksalmon;
     padding: 14px 16px;
     margin-left: 150px;
-    height: 500px;
+    margin-top: 100px;
+    height: fit-content;
     width: 250px;
+    box-shadow: 5px 10px salmon;
     /* float: left; */
 }
 
 article {
-    
+
+}
+
+img {
+    height: 200px;
+}
+
+.availability {
+    background-color: grey;
+    color: yellow;
+} 
+
+footer {
+    font-size: small;
 }
