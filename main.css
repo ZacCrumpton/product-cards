@@ -1,21 +1,62 @@
 body {
-    background-color: grey;
+    background-color: lightyellow;
 }
 
 .content{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: left;
+}
+
+.nav-list {
+    list-style-type: none;
+
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: lightgrey;
+    width: 100%;
+    height: 80px;
+    margin-top: -10px;
+    margin-left: -10px;
+    padding-right: 18px;
+
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    float: left;
+    border-right: 1px solid white;
+}
+
+li a {
+    background-color:;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: darkgray;
+    height: ;
 }
 
 .cards {
-    background-color: darksalmon;
+    background-color: white;
     padding: 14px 16px;
     margin-left: 150px;
-    margin-top: 100px;
-    height: fit-content;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 100%;
     width: 250px;
-    box-shadow: 5px 10px salmon;
+    box-shadow: 5px 10px darkgray;
+    border: 1px solid lightblue;
+    
     /* float: left; */
 }
 
@@ -32,6 +73,52 @@ img {
     color: yellow;
 } 
 
-footer {
+.index-foot {
     font-size: small;
+    width: 100%;
+    padding: 20px;
+    float: inline-end;
+    background-color: lightgray;
+    text-align: center;
+}
+
+.card-title {
+    display: block;
+    width: 0%;
+    background-color: white;
+    padding: 14px 16px;
+}
+
+.prod-title {
+    display: block;
+    background-color: white;
+    border: 1px solid lightblue;
+    width: 100%;
+    padding: 10px 16px;
+    margin-left: -16px;
+    margin-top: -14px;
+    
+}
+.prod-title {
+    text-align: center;
+}
+
+.specifications {
+    margin-bottom: 30px;
+}
+
+#nerds {
+   
+}
+
+#abba {
+    
+}
+
+#reeses {
+    
+}
+
+#lifesavers {
+    
 }
