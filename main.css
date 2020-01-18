@@ -14,35 +14,39 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: lightgrey;
+    background-color: rosybrown;
     width: 100%;
     height: 80px;
     margin-top: -10px;
     margin-left: -10px;
     padding-right: 18px;
+    
 
 }
 
 ul {
     list-style: none;
+    
 }
 
 li {
     float: left;
     border-right: 1px solid white;
+    
 }
 
 li a {
     background-color:;
     display: block;
-    color: black;
+    color: lightyellow;
     text-align: center;
     padding: 14px 16px;
-    text-decoration: none;
+    text-decoration: none;    
+
 }
 
 li a:hover{
-    background-color: darkgray;
+    background-color: palevioletred;
     height: ;
 }
 
@@ -78,8 +82,9 @@ img {
     width: 100%;
     padding: 20px;
     float: inline-end;
-    background-color: lightgray;
+    background-color: brown;
     text-align: center;
+    color: white;
 }
 
 .card-title {
@@ -121,4 +126,10 @@ img {
 
 #lifesavers {
     
+}
+
+.nav-title {
+    float: inline-start;
+    padding: 5px 16px;
+    color: white;
 }
